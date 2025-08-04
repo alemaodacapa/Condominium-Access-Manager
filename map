@@ -1,0 +1,38 @@
+projeto-condominio/
+│
+├── index.php             → Login (baseado em login.php)
+├── dashboard.php         → Painel principal
+│
+├── api/
+│   ├── login.php         → Login de usuários *
+│   ├── register.php      → Cadastro de usuários *
+│   ├── residents.php     → API para moradores *
+│   ├── visitors.php      → API para visitantes *
+│   ├── services.php      → API de serviços *
+│   ├── packages.php      → API de pacotes *
+│   └── reports.php       → Relatórios de visitas/pacotes *
+│
+├── includes/
+│   ├── db.php            → Conexão com o banco de dados *
+│   └── auth.php          → Controle de autenticação/sessões
+│
+├── middleware/
+│   └── auth.php          → Middleware de autenticação
+│
+├── uploads/
+│   ├── residents/
+│   ├── visitors/
+│   ├── services/
+│   └── packages/
+│
+├── js/
+│   ├── auth.js
+│   ├── webcam.js
+│   ├── dashboard.js
+│   └── modal.js
+│
+├── css/
+│   └── style.css         → Tailwind ou estilos customizados
+│
+└── database/
+    └── db.sql            → Script de criação do banco
